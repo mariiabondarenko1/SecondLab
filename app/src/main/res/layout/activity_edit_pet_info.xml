@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="10px">
+
+    <TextView
+            android:text="Кличка:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView4" android:padding="5pt"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editNamePet" android:layout_margin="5pt"/>
+    <TextView
+            android:text="Возраст:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView6" android:padding="5pt"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editAgePet" android:layout_margin="5pt"/>
+    <TextView
+            android:text="Имя хозяина:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView8" android:padding="5pt"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editNameHuman" android:layout_margin="5pt"/>
+    <Button
+            android:text="Сохранить изменения"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/buttonSaveChanges"/>
+</LinearLayout>

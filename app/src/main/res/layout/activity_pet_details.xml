@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:padding="10pt"
+              android:layout_alignParentTop="false" android:layout_alignParentStart="false"
+>
+
+    <TextView
+            android:text="Кличка:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView3" android:padding="5pt"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/petName" android:text="*заполните данные*"
+            android:textSize="18sp" android:layout_margin="5pt"/>
+    <TextView
+            android:text="Возраст:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView5" android:padding="5pt"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/petAge" android:text="*заполните данные*"
+            android:textSize="18sp" android:layout_margin="5pt"/>
+    <TextView
+            android:text="Имя хозяина:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView7" android:padding="5pt"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/humanName" android:text="*заполните данные*"
+            android:textSize="18sp" android:layout_margin="5pt"/>
+    <Button
+            android:text="Изменить данные"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/buttonChangeInfo" android:layout_marginLeft="32pt"/>
+</LinearLayout>
